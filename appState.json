@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2a4a6977-2c7b-45d4-8189-766f001338d8": {
+        "id": "2a4a6977-2c7b-45d4-8189-766f001338d8",
+        "parent": null,
+        "name": "nnbn",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2a672216-ad27-4832-a8ac-8a7a454bc5d5"
+        ],
+        "isRemovable": false,
+        "filePath": "nnbn"
+      },
+      "2a672216-ad27-4832-a8ac-8a7a454bc5d5": {
+        "id": "2a672216-ad27-4832-a8ac-8a7a454bc5d5",
+        "parent": "2a4a6977-2c7b-45d4-8189-766f001338d8",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "nnbn/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "2a4a6977-2c7b-45d4-8189-766f001338d8",
+    "openFiles": [
+      "2a672216-ad27-4832-a8ac-8a7a454bc5d5"
+    ],
+    "currentFileId": "2a672216-ad27-4832-a8ac-8a7a454bc5d5",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "nnbn",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1554712476828
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "nnbn",
+      "url": "https://github.com/Kumudikatest/nnbn"
+    }
+  }
+}
